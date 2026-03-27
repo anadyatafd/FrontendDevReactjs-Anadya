@@ -1,16 +1,54 @@
-# React + Vite
+# FrontendDevReactjs-Anadya
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Technical Test - Front End Developer (React JS)**
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🔹 Deskripsi Project
 
-## React Compiler
+Project ini adalah implementasi mockup Frontend React JS untuk menampilkan daftar restoran dengan filter dan detail view. Data restoran menggunakan API terbuka / mock API sesuai instruksi technical test.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🔹 Fitur Utama
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Main Page
+- Filter navigation:
+  - Open now (client-side filter)
+  - Price range (client-side filter)
+  - Categories/Cuisines (server-side search filter)
+- Restaurant list:
+  - Image (menggunakan foto pertama)
+  - Cuisine / Categories
+  - Rating
+  - Price range
+  - Open / Closed
+  - Restaurant name
+  - “Learn more” navigasi ke Detail View
+
+### Detail View
+- Restaurant Name & Rating
+- Map (opsional)
+- Review items:
+  - Image reviewer
+  - Reviewer name
+  - Rating
+  - Review text
+
+---
+
+## 🔹 Teknologi
+- React JS (v18.x)
+- Node.js (v18.x)
+- Tailwind CSS
+- React Router
+- Fetch / Axios untuk API
+
+---
+
+## 🔹 Cara Jalankan Lokal
+
+1. Clone repo:
+
+```bash
+git clone https://github.com/anadyatafd/FrontendDevReactjs-Anadya.git
